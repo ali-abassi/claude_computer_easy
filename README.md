@@ -6,8 +6,8 @@ Claude Computer is a toolset for interacting with a computer using Anthropic's A
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ali-abassi/claude_computer.git
-   cd claude_computer
+   git clone https://github.com/ali-abassi/claude_computer_easy.git
+   cd claude_computer_easy
    ```
 
 2. Install the required Python packages:
@@ -15,7 +15,7 @@ Claude Computer is a toolset for interacting with a computer using Anthropic's A
    pip install -r requirements.txt
    ```
 
-3. Set up your environment variables in a `.env` file:
+3. Set up your environment variables in a `.env` file. You can use the provided `.SAMPLEenv` file located at `/Users/aliabassi/TEST1/claude_computer_easy/.SAMPLEenv`. Just remove the `SAMPLE` from the filename and update your API key:
    ```plaintext
    ANTHROPIC_API_KEY=your_anthropic_api_key
    ```
